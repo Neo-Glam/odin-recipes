@@ -1,0 +1,33 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 200, 221)
+}
+
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button {
+    background-color: black;
+    color: pink;
+    height: auto;
+    width: 100px;
+    text-decoration: underline;
+    translate: 100px;
+    
+
+}
+
+.liste {
+    font-size: large;
+    font-style: oblique;
+}
+
+.ingredients {
+    color: rgb(175, 108, 214);
+}
+
+.preparations {
+    color: rgb(84, 167, 245);
+}
