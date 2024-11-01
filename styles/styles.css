@@ -4,25 +4,68 @@
 }
 
 h1 {
-    margin-left: 100px;
+    text-align: center;
     font-weight: bold;
     text-decoration: underline;
 }
 
+h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.im1 {
+    border-style: solid;
+    margin-right: 20px;
+}
+
+.case {
+    padding: 10px;
+    margin: 20px;
+    border-style: double;
+    background-color: antiquewhite;
+
+}
+
+.flavor {
+    background-color: inherit;
+}
+
+.recette {
+    padding: 20px;
+    margin: 20px;
+    border-style: double;
+    background-color: antiquewhite;
+
+}
+
+.C {
+    background-color: inherit;
+
+}
+
+.p {
+    background-color: inherit;
+    margin-left: 20px;
+}
+
+
+
 button {
     background-color: black;
     color: rgb(255, 255, 255);
-    height: auto;
-    width: 100px;
-    text-decoration: underline;
-    translate: 100px;
-    
-
+    display: block;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 .liste {
     font-size: large;
     font-style: oblique;
+        width: 300px;
+        border: 5px solid rgb(0, 0, 0);
+        padding: 50px;
+        margin: 20px;
 }
 
 .ingredients {
