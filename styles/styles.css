@@ -1,6 +1,6 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(255, 200, 221)
+    background-color: rgb(240, 218, 157)
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 
 button {
     background-color: black;
-    color: pink;
+    color: rgb(255, 255, 255);
     height: auto;
     width: 100px;
     text-decoration: underline;
@@ -26,9 +26,9 @@ button {
 }
 
 .ingredients {
-    color: rgb(175, 108, 214);
+    color: rgb(0, 0, 0)
 }
 
 .preparations {
-    color: rgb(84, 167, 245);
+    color: rgb(0, 0, 0);
 }
