@@ -9,54 +9,50 @@ h1 {
     text-decoration: underline;
 }
 
-h3 {
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
+.book {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
-.im1 {
-    border-style: solid;
-    margin-right: 20px;
 }
 
 .case {
-    padding: 10px;
-    margin: 20px;
+    display: flex;
     border-style: double;
-    background-color: antiquewhite;
+    justify-content: space-around;
+    gap: 10px;
+    background: antiquewhite;
+
 
 }
+
+.case p {
+    font-size: 17px;
+    background: antiquewhite;
+    
+
+}
+
+.case h3 {
+    font-size: 24px;
+    text-decoration: underline;
+    background: antiquewhite;
+} 
 
 .flavor {
-    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: antiquewhite;
+}
+.button {
+    align-self: flex-start;
 }
 
-.recette {
-    padding: 20px;
-    margin: 20px;
-    border-style: double;
-    background-color: antiquewhite;
-
-}
-
-.C {
-    background-color: inherit;
-
-}
-
-.p {
-    background-color: inherit;
-    margin-left: 20px;
-}
-
-
-
-button {
+.button button {
     background-color: black;
-    color: rgb(255, 255, 255);
-    display: block;
-    margin-left: 100px;
-    margin-top: 10px;
+    color: antiquewhite;
+    font-size: large;
 }
 
 .liste {
